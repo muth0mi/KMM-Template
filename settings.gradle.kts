@@ -6,7 +6,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "PMI"
+rootProject.name = "KMM Template"
 include(":iosApp")
 include(":androidApp")
 include(":shared")

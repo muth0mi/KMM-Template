@@ -1,4 +1,4 @@
-package app.pmi.shared
+package app.project.shared
 
 actual class Platform actual constructor() {
     actual val platform: String = "Android ${android.os.Build.VERSION.SDK_INT}"

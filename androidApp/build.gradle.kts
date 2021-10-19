@@ -6,7 +6,7 @@ plugins {
 android {
     compileSdk = 31
     defaultConfig {
-        applicationId = "me.user.androidApp"
+        applicationId = "io.github.muth0mi.project"
         minSdk = 21
         targetSdk = 31
         versionCode = 1

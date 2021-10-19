@@ -17,10 +17,8 @@ kotlin {
         }
     }
     sourceSets {
-        val commonMain by getting
-        val commonTest by getting {
+        val commonMain by getting  {
             dependencies {
-                implementation(kotlin("test"))
             }
         }
 
@@ -28,23 +26,20 @@ kotlin {
             dependencies {
             }
         }
-        val androidTest by getting {
+
+        val iosMain by getting {
             dependencies {
-                implementation("junit:junit:4.13.2")
             }
         }
-
-        val iosMain by getting
-        val iosTest by getting
     }
 }
 
 android {
-    compileSdkVersion(31)
+    compileSdk = 31
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
-        minSdkVersion(21)
-        targetSdkVersion(31)
+        minSdk = 21
+        targetSdk = 31
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8

@@ -1,4 +1,4 @@
-package app.pmi
+package app.project
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -6,7 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.core.view.WindowCompat
-import app.pmi.theme.Theme
+import app.project.shared.Greeting
+import app.project.theme.Theme
 
 class MainActivity : ComponentActivity() {
 
@@ -22,5 +23,5 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun MyScreen(
 ) {
-    Text(text = "Hello Yo!")
+    Text(text = Greeting().greeting())
 }

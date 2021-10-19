@@ -1,4 +1,4 @@
-package app.pmi.shared
+package app.project.shared
 
 
 class Greeting {

@@ -1,4 +1,4 @@
-package app.pmi.theme
+package app.project.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

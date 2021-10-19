@@ -1,4 +1,4 @@
-package app.pmi.theme
+package app.project.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
