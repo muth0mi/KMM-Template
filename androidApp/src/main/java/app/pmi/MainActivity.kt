@@ -1,8 +1,8 @@
-package me.user.androidApp
+package app.pmi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import me.user.shared.Greeting
+import app.pmi.shared.Greeting
 import android.widget.TextView
 
 fun greet(): String {
